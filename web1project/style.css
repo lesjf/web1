@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+body {
+  background-image: url(images/luke-chesser-1586147-unsplash.jpg),
+    url(images/patrick-tomasso-208114-unsplash.jpg),
+    url(images/peter-fogden-778205-unsplash.jpg),
+    url(images/peter-fogden-778205-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1000px;
+  border: none;
+  margin: 0 auto;
+}
+#header {
+  text-align: center;
+}
+h1 {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  font-size: 80px;
+  color: White;
+}
+h2 {
+  font-family: "Poiret One" cursive;
+  color: black;
+}
+h3 {
+  font-family: "Poiret One", cursive;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.section {
+  border: 1px solid transparent;
+  padding: 20px;
+}
+#landing {
+  font-family: "poiret one", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+}
+
+#welcome {
+  font-family: "poiret one", cursive;
+  color: white;
+}
+p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: black;
+}
+p#blurb {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+#exp_item {
+  font-style: "Poiret One";
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+  position: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+figure {
+  width: 200px;
+  margin: 8px 0;
+  border: 1px solid #777;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure figcaption {
+  text-align: center;
+  padding: 8px 4px;
+}
+
+.exp_item {
+  margin: 10px 20px;
+  font-style: "Poiret One";
+  color: black;
+}
+
+.navigation {
+  height: 50px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  font-family: "poiret one", cursive;
+}
+
+.navigation li {
+  display: inline;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project_list {
+  font-family: "poiret one", cursive;
+  font-size: 15px;
+  color: black;
+  border: 1px solid black;
+}
+
+.contact-me ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-me {
+  font-family: "poiret one", cursive;
+  font-size: 20px;
+  color: white;
+  border: 2px black;
+  grid-row: auto;
+}
+h4 {
+  font-size: 25px;
+}
+.gallery-bg {
+  background-image: url(images/patrick-tomasso-208114-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_me-bg {
+  background-image: url(images/pawel-czerwinski-1585736-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#experience-about {
+  font-family: "poiret one", cursive;
+  color: black;
+}
